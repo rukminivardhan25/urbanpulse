@@ -1,0 +1,52 @@
+node_modules/
+.expo/
+.expo-shared/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+*.log
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backend environment files
+backend/.env
+admin-role/backend/.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp_welcome.js
+tsconfig.json
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+*.cache
+

@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "UrbanPulse Admin",
+    "slug": "urbanpulse-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14532D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow UrbanPulse Admin to use your location to help you select your admin area."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.urbanpulse.admin",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to help you select your admin area.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses your location to help you select your admin area."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14532D"
+      },
+      "package": "com.urbanpulse.admin",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+

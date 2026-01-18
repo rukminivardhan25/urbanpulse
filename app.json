@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "UrbanPulse",
+    "slug": "urbanpulse-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#14532D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.urbanpulse.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow UrbanPulse to use your location to find nearby emergency services.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow UrbanPulse to use your location to find nearby emergency services."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#14532D"
+      },
+      "package": "com.urbanpulse.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow UrbanPulse to use your location to find nearby emergency services."
+        }
+      ]
+    ],
+    "web": {},
+    "scheme": "urbanpulse"
+  }
+}
+
